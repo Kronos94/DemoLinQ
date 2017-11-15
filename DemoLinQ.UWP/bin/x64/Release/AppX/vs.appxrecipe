@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-VFHPENM</Machine>
+    <WindowsUser>ExMachina</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>665c4190-6885-430c-8d7e-7fbc0ddc5b99</PackageIdentityName>
+    <PackageIdentityPublisher>CN=ExMachina</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>EAACF27C2D0454C167258A5E8FFD3C418BC1892C8E8617BDCE078961E646B02B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>665c4190-6885-430c-8d7e-7fbc0ddc5b99_1.0.0.0_x64__7yxx8gb9sn45t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>665c4190-6885-430c-8d7e-7fbc0ddc5b99_7yxx8gb9sn45t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>665c4190-6885-430c-8d7e-7fbc0ddc5b99</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ExMachina</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T21:14:18.944</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-100.png">
+      <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
+      <Modified>2017-11-14T20:15:51.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-125.png">
+      <PackagePath>Assets\LockScreenLogo.scale-125.png</PackagePath>
+      <Modified>2017-11-14T20:15:51.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-150.png">
+      <PackagePath>Assets\LockScreenLogo.scale-150.png</PackagePath>
+      <Modified>2017-11-14T20:15:51.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2017-11-14T20:15:51.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-400.png">
+      <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
+      <Modified>2017-11-14T20:15:51.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T20:15:51.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T19:46:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\DemoLinQ.UWP.dll">
+      <PackagePath>DemoLinQ.UWP.dll</PackagePath>
+      <Modified>2017-11-14T21:14:18.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\DemoLinQ.UWP.exe">
+      <PackagePath>DemoLinQ.UWP.exe</PackagePath>
+      <Modified>2017-11-14T21:14:18.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\DemoLinQ.UWP.pdb">
+      <PackagePath>DemoLinQ.UWP.pdb</PackagePath>
+      <Modified>2017-11-14T21:14:18.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\DemoLinQ\Resources\Info.xml">
+      <PackagePath>DemoLinQ\Resources\Info.xml</PackagePath>
+      <Modified>2017-11-14T20:57:24.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-11-14T21:12:47.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+      <Modified>2017-11-14T21:13:43.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\_Resources\1.rsrc">
+      <PackagePath>_Resources\1.rsrc</PackagePath>
+      <Modified>2017-11-14T21:13:43.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\_Resources\2.rsrc">
+      <PackagePath>_Resources\2.rsrc</PackagePath>
+      <Modified>2017-11-14T21:13:43.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\bin\x64\Release\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+      <Modified>2017-11-14T21:13:43.680</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x64\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x86\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

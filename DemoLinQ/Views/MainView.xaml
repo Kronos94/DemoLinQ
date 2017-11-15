@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoLinQ.Views.MainView">
+    <ContentPage.Content>
+        <StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Label x:Name="lblName"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Center"
+                       WidthRequest="250"
+                       Text="Nombre: "/>
+				<Entry x:Name="entryName"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="FillAndExpand" />
+			</StackLayout>
+
+			<StackLayout Orientation="Horizontal">
+				<Label x:Name="lblAge"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Center"
+                       WidthRequest="250"
+                       Text="Edad:"/>
+				<Entry x:Name="entryAge"
+                       VerticalOptions="FillAndExpand" 
+                       HorizontalOptions="FillAndExpand" />
+			</StackLayout>
+
+			<Label></Label>
+			
+			<StackLayout Orientation="Horizontal">
+				<Button x:Name="buttonWhere"
+						Text="Where"
+						Clicked="buttonWhere_Clicked"
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" />
+				<Button x:Name="buttonFirst"
+						Text="FirstOfDefault"
+						Clicked="buttonFirst_Clicked"
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" />
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Button x:Name="buttonSingle"
+						Text="SingleOfDefault"
+						Clicked="buttonSingle_Clicked"
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" />
+				<Button x:Name="buttonLast"
+						Text="LastOfDefault"
+						Clicked="buttonLast_Clicked"
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" />
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Button x:Name="buttonOrderAsc"
+						Text="OrderByAscending"
+						Clicked="buttonOrderAsc_Clicked"
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" />
+				<Button x:Name="buttonOrderDesc"
+						Text="OrderByDescending"
+						Clicked="buttonOrderDesc_Clicked"
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" />
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Button x:Name="buttonSkip"
+						Text="SkipWhile"
+						Clicked="buttonSkip_Clicked"
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" />
+				<Button x:Name="buttonTake"
+						Text="TakeWhile"
+						Clicked="buttonTake_Clicked"
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" />
+			</StackLayout>
+
+			<Label></Label>
+			<Label x:Name="lblError"
+				     VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+				/>
+			<Label></Label>
+
+			<ListView  x:Name="lstContactos"
+                       RowHeight="100">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<StackLayout BackgroundColor="#eee"
+                                         Orientation="Vertical">
+								<StackLayout Orientation="Horizontal">
+									<StackLayout Orientation="Vertical">
+										<Label x:Name="txtName"
+                                               VerticalOptions="FillAndExpand"
+                                               HorizontalOptions="FillAndExpand"
+                                               FontAttributes="Bold"
+                                               Text="Nombre"/>
+										<Label></Label>
+										<Label Text="{Binding Nombre}"
+                                               VerticalOptions="FillAndExpand" 
+                                               HorizontalOptions="FillAndExpand"/>
+									</StackLayout>
+
+									<StackLayout Orientation="Vertical">
+										<Label x:Name="txtEdad"
+                                               FontAttributes="Bold"
+                                               VerticalOptions="FillAndExpand"
+                                               HorizontalOptions="FillAndExpand"
+                                               Text="Edad"/>
+										<Label></Label>
+										<Label Text="{Binding Edad}" XAlign="Center"
+                                               VerticalOptions="FillAndExpand" 
+                                               HorizontalOptions="FillAndExpand"/>
+									</StackLayout>
+
+									<StackLayout Orientation="Vertical">
+										<Label x:Name="txtDNI"
+                                               FontAttributes="Bold"
+                                               VerticalOptions="FillAndExpand"
+                                               HorizontalOptions="FillAndExpand"
+                                               Text="DNI"/>
+										<Label></Label>
+										<Label Text="{Binding Dni}" XAlign="End"
+                                               VerticalOptions="FillAndExpand" 
+                                               HorizontalOptions="FillAndExpand"/>
+									</StackLayout>
+
+								</StackLayout>
+							</StackLayout>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+			<Label></Label>
+
+			<Button Text="Restaurar"
+					x:Name="btnRestaurar"
+					Clicked="btnRestaurar_Clicked"
+					VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" 
+					/>
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

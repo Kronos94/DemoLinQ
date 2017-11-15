@@ -1,0 +1,4 @@
+DemoLinQ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  DemoLinQ.Properties.Resources.resources
+  DemoLinQ.MainPage.xaml
+  DemoLinQ.App.xaml

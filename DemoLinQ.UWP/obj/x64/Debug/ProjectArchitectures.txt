@@ -1,0 +1,2 @@
+C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ.UWP\DemoLinQ.UWP.csproj;x64
+C:\Users\ExMachina\source\repos\DemoLinQ\DemoLinQ\DemoLinQ\DemoLinQ.csproj;neutral
